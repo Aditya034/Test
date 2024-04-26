@@ -1,13 +1,19 @@
-#!bin/bash
+#!/bin/bash
 
-read -p "ENter the value of N:" N
+echo "Enter the number"
+read num
 
-for((i=2; i<$N/2; i++))
-do
-if [ $((N%i)) -eq 0 ]
+if [[ $num -eq 1 ]]
 then
-	echo "$N is not prime"
-	exit 0
+ echo "$num is not prime "
+ exit
 fi
+for (( i=2 ; i < $num ; i++ ))
+do
+	if [ $(( $num % i )) -eq 0 ]
+	then
+	echo "$num is not prime"
+	exit
+	fi
 done
-	echo "$N is prime"
+echo "$num is prime number"
