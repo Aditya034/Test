@@ -1,0 +1,84 @@
+Commands for containerization
+Sudo apt update
+
+docker -v
+
+
+
+sudo systemctl status docker
+
+sudo docker ps
+
+sudo docker images
+
+sudo docker images
+
+sudo docker run hello-world
+
+sudo docker pull nginx
+
+
+
+sudo docker images
+
+
+sudo docker run --name Mydocker  -d -p 8080:80 nginx
+
+
+sudo docker ps
+
+
+
+<Instance ip address>:8080
+
+65.0.80.225:8080
+
+
+
+2) 
+mkdir tfl
+cd tfl
+tfl git clone <url of repository>	
+cd tflstore
+ls
+sudo docker images
+
+
+sudo docker build –t tflimage .
+
+
+
+
+sudo docker images 
+
+
+Sudo docker run –-name vijaysales –d –p 8000:8000 tflimage 
+
+
+<ip address of instance>:8000
+65.0.80.225:8000
+
+
+
+
+
+
+
+2)---------for ssh without putty
+
+
+mkdir tfl
+cd tfl
+tfl git clone <url of repository>	
+cd tflstore
+ls
+
+sudo apt update
+sudo apt get install nodejs
+
+sudo apt get install npm
+
+npm install
+
+listenining ports-------will appear
+
